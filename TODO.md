@@ -1,0 +1,6 @@
+- Add a path for `users/{id}` to the frontend and the backend
+    - I should be able to navigate to `localhost:3000/users/1` and it'll display the data in the DB for that user
+    - The client will make a request to `/api/users/1` to fetch the data
+- Add a text box for choosing a bio for the profile
+    - Add a save button to create or update the profile with the new bio
+    - Display bio data on the same page
